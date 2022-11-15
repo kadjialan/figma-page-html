@@ -110,11 +110,10 @@ p {
 }
 
 .content2 {
-  padding-bottom: 65%; 
+  padding-bottom: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 45px 0px; */
   text-align: center;
   gap: 10px;
 }
@@ -128,7 +127,7 @@ p {
 .meeting {
   background-image: url("../styles/images/coverD.jpg");
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   min-height: 442px;
   display: flex;
   flex-direction: column;
@@ -137,24 +136,46 @@ p {
   max-width: 100%;
   margin: auto;
   position: absolute;
-  margin-left:10%;
+  margin-left: 10%;
   width: 80%;
   margin-top: -100px;
 }
 
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0px;
+  gap: 60px;
+  width: 80%;
+  margin: auto;
+}
+
 #testimonials {
   background-color: #252B42;
-  height: 200px;
+  height: 1225px;
   display: flex;
-  
 }
 
-
-
-/* .pict{
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 34.8px 36.8px;
+.boxe2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 40px;
+  gap: 15px;
+  background-color: white;
+  color: black;
 }
- */
+
+.short {
+  display: flex;
+  gap: 10px;
+}
+
+.short p {
+  padding-top: 5px;
+}
+
+span {
+  color: #FFA62B;
+}
