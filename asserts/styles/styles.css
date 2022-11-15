@@ -25,7 +25,7 @@
 }
 
 h2 {
-  height: 114px;
+  /* height: 114px; */
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -42,44 +42,57 @@ h4 {
 
 #task {
   background-color: #252B42;
-  height: 1715px;
+  height: 1600px;
   width: 100%;
   color: white;
 }
 
 .main {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 30px 0px;
-width: 80%;
-margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  width: 85%;
+  margin: auto;
 }
 
 .content {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 45px 0px;
-text-align: center;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0px;
+  text-align: center;
+  gap: 10px;
 }
 
 .vector {
-display: flex;
-flex-direction: row;
-align-items: center;
-gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
+
 .box {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 40px;
-gap: 15px;
-background-color: white;
-color: black;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 40px;
+  gap: 15px;
+  background-color: white;
+  color: black;
+}
 
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+
+.fa-solid {
+  color: #00A0C1;
+  font-size: 30px;
 }
 
 p {
@@ -88,3 +101,60 @@ p {
   line-height: 20px;
 }
 
+#expert,
+.expert {
+  width: 100%;
+  height: 850px;
+  background-color: #252B42;
+  color: white;
+}
+
+.content2 {
+  padding-bottom: 65%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 45px 0px; */
+  text-align: center;
+  gap: 10px;
+}
+
+.expert {
+  background-color: rgba(40, 128, 55, 0.233);
+  height: 50%;
+  margin-top: -100px;
+}
+
+.meeting {
+  background-image: url("../styles/images/coverD.jpg");
+  background-position: center;
+  background-size: cover; 
+  min-height: 442px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+  position: absolute;
+  margin-left:10%;
+  width: 80%;
+  margin-top: -100px;
+}
+
+#testimonials {
+  background-color: #252B42;
+  height: 200px;
+  display: flex;
+  
+}
+
+
+
+/* .pict{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 34.8px 36.8px;
+}
+ */
