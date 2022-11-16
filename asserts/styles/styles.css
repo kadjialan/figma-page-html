@@ -4,11 +4,32 @@
 }
 
 #header {
-  background-image: url("../styles/images/background.png");
+  background-image:linear-gradient(#00000080,#00000080), url("../styles/images/coverD.png");
   width: 100%;
   color: white;
   height: 900px;
   width: 100%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+}
+
+#header .fa-solid {
+  color: #F9F9F9;
+  font-size: larger;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav1,
+.nav2 {
+  padding: 10px;
+  gap: 10px;
   display: flex;
 }
 
@@ -75,7 +96,7 @@ button {
 
 #task {
   background-color: #252B42;
-  height: 1525px;
+  min-height: 1425px;
   width: 100%;
   color: white;
 }
@@ -83,7 +104,7 @@ button {
 
 #team {
   background-color: #252B42;
-  height: 1550px;
+  height: 1350px;
   width: 100%;
   color: white;
 }
@@ -241,6 +262,8 @@ figcaption {
 .boxe3 {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 
 .bizarre {
@@ -398,4 +421,12 @@ hr {
 .part3 {
   background-color: #16697A;
   height: 100px;
+  display: flex;
+}
+
+.part31 {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  color: white;
 }
