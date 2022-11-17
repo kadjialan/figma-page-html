@@ -344,7 +344,8 @@ h3 {
   border-radius: 6px;
 }
 
-#bars {
+#bars-a,
+#bars-b {
   height: 50px;
   background-color: #F9F9F9;
   border: 1px solid #BDBDBD;
@@ -524,7 +525,8 @@ hr {
   }
 
   .bars,
-  #bars {
+  #bars-a,
+  #bars-b {
     width: 258px;
   }
 
