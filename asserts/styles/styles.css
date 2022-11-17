@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header {
   background-image: linear-gradient(#00000080, #00000080), url("../styles/images/coverD.png");
-  width: 100%;
+  /* width: 100%; */
   color: white;
   height: 900px;
   width: 100%;
@@ -16,7 +16,7 @@
 }
 
 #header .fa-solid {
-  color: #F9F9F9;
+  color: #f9f9f9;
   font-size: larger;
 }
 
@@ -59,8 +59,7 @@ nav {
   gap: 10px;
   width: 185px;
   height: 48px;
-  background: #FFA62B;
-  border-radius: 37
+  background: #ffA62b;
 }
 
 h2 {
@@ -96,20 +95,19 @@ button {
   gap: 10px;
   width: 154px;
   height: 48px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 37px;
 }
 
 #task {
-  background-color: #252B42;
+  background-color: #252b42;
   min-height: 1425px;
   width: 100%;
   color: white;
 }
 
-
 #team {
-  background-color: #252B42;
+  background-color: #252b42;
   min-height: 155vh;
   width: 100%;
   color: white;
@@ -119,7 +117,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0px;
+  padding: 30px 0;
   width: 85%;
   margin: auto;
 }
@@ -128,7 +126,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px 0px;
+  padding: 45px 0;
   text-align: center;
   gap: 10px;
   color: white;
@@ -147,7 +145,7 @@ button {
   align-items: flex-start;
   padding: 35px 40px;
   gap: 15px;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   color: black;
 }
 
@@ -160,12 +158,12 @@ button {
 }
 
 .fa-solid {
-  color: #00A0C1;
+  color: #00a0c1;
   font-size: 30px;
 }
 
 .fa-brands {
-  color: #00A0C1;
+  color: #00a0c1;
 }
 
 p {
@@ -178,7 +176,7 @@ p {
 .expert {
   width: 100%;
   height: 850px;
-  background-color: #252B42;
+  background-color: #252b42;
   color: white;
 }
 
@@ -218,14 +216,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px 0px;
+  padding: 45px 0;
   gap: 60px;
   width: 80%;
   margin: auto;
 }
 
 #testimonials {
-  background-color: #252B42;
+  background-color: #252b42;
   height: 1225px;
   display: flex;
 }
@@ -250,7 +248,7 @@ p {
 }
 
 span {
-  color: #FFA62B;
+  color: #ffa62b;
 }
 
 figcaption {
@@ -276,7 +274,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px 0px;
+  padding: 40px 0;
   gap: 40px;
   width: 80%;
   margin: auto;
@@ -301,7 +299,7 @@ figcaption {
 .sub {
   color: black;
   height: 302px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -322,7 +320,7 @@ h3 {
   padding: 15px 40px;
   width: 263px;
   height: 58px;
-  background: #FFA62B;
+  background: #ffa62b;
   border-radius: 5px;
 }
 
@@ -330,16 +328,16 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 10px;
   width: 239px;
 }
 
 .bars {
   height: 30px;
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
-  color: #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
   padding: 10px;
   border-radius: 6px;
 }
@@ -347,30 +345,29 @@ h3 {
 #bars-a,
 #bars-b {
   height: 50px;
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
-  color: #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
   padding: 10px;
   border-radius: 6px;
 }
 
 #bars2 {
   height: 140px;
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
-  color: #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
   padding: 10px;
   border-radius: 6px;
 }
 
 footer {
   width: 100%;
-  /* height: 1381px; */
 }
 
 .part-1 {
   height: 212px;
-  background: #252B42;
+  background: #252b42;
   display: flex;
 }
 
@@ -401,14 +398,12 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 70px 0px;
+  padding: 70px 0;
   width: 75%;
-  /* height: 920px; */
   margin: auto;
   gap: 20px;
   color: white;
 }
-
 
 .col {
   display: flex;
@@ -425,18 +420,18 @@ hr {
   background-color: white;
   width: 270px;
   height: 58px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   border-radius: 5px;
   margin: 7px 0;
 }
 
 .col2 {
   padding-top: 18px;
-  background-color: #FFA62B;
+  background-color: #ffa62b;
   height: 58px;
   text-align: center;
   border: 1px solid #E6E6E6;
-  border-radius: 0px 5px 5px 0px
+  border-radius: 0 5px 5px 0;
 }
 
 .part3 {
@@ -508,7 +503,7 @@ hr {
   }
 
   .main-2 {
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   #testimonials {
