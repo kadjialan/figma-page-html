@@ -4,7 +4,7 @@
 }
 
 #header {
-  background-image:linear-gradient(#00000080,#00000080), url("../styles/images/coverD.png");
+  background-image: linear-gradient(#00000080, #00000080), url("../styles/images/coverD.png");
   width: 100%;
   color: white;
   height: 900px;
@@ -39,7 +39,7 @@ nav {
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 3vh;
+  gap: 2vh;
   width: 85%;
   margin: auto;
   margin-top: 300px;
@@ -104,7 +104,7 @@ button {
 
 #team {
   background-color: #252B42;
-  height: 1350px;
+  min-height: 155vh;
   width: 100%;
   color: white;
 }
@@ -141,7 +141,7 @@ button {
   align-items: flex-start;
   padding: 35px 40px;
   gap: 15px;
-  background-color: white;
+  background-color: #E8E8E8;
   color: black;
 }
 
@@ -177,7 +177,7 @@ p {
 }
 
 .content2 {
-  padding-bottom: 65%;
+  padding-bottom: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -429,4 +429,69 @@ hr {
   text-align: center;
   margin: auto;
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .begin {
+    max-width: 539px;
+  }
+
+  .begin h2 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+  }
+
+  nav {
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+
+  .nav2 {
+    gap: 8vw;
+  }
+
+  #task {
+    min-height: 750px;
+  }
+
+   .content {
+    max-width: 470px;
+  } 
+
+  .content-x {
+    max-width: 470px;
+    padding: 0;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .boxe3 {
+    width: 29vw;
+  }
+  
+  .box {
+    width: 19vw;
+    height: 150px;
+  }
+
+  .box p{
+    max-width: 245px;
+  }
+
+  .main-2 {
+    margin: 0px auto ;
+  }
+
+  #testimonials {
+    height: 590px;
+  }
+
+  #team {
+   min-height: 73vh;
+  }
+
 }
