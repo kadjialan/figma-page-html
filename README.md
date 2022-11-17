@@ -1,18 +1,15 @@
-# CV
+# Project6
 
-This project is named cv.
+This project is named project6.
 
 ## APP
 
-![avatar](asserts/styles/images/avatar.jpg)
+![cover](asserts/styles/images/cover.jpg)
+![coverD](asserts/styles/images/coverD.png)
 
 ## ABOUT
 
-This page give information about Jane Doe cv. mainly, here
-adresses,
-here skills and languages in a decreasing order displayed as
-progresse bars. Some informations about here academic path can
-as well be gotten from the page.
+This page is a representation of a figma project
 
 ## Built With
 
@@ -30,7 +27,7 @@ as well be gotten from the page.
 ## Command-line steps
 
 - $ git clone `$ https://github.com/kadjialan/cvtemplate-page-html`
-- $ `cd cv`
+- $ `cd figma6`
 - $ `git checkout feature/readme`
 
 ## Start App
