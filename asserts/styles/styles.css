@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #header {
@@ -43,6 +44,11 @@ nav {
   width: 85%;
   margin: auto;
   margin-top: 300px;
+}
+
+.xxx {
+  background-color: transparent;
+  color: white;
 }
 
 .label {
@@ -274,7 +280,7 @@ figcaption {
   gap: 40px;
   width: 80%;
   margin: auto;
-  height: 600px; 
+  height: 600px;
   border-radius: 10px;
 }
 
@@ -399,7 +405,7 @@ hr {
   /* height: 920px; */
   margin: auto;
   gap: 20px;
-  color:white ;
+  color: white;
 }
 
 
@@ -467,6 +473,10 @@ hr {
 
   #task {
     min-height: 750px;
+  }
+
+  #expert .content2 {
+    width: 462px;
   }
 
   .content {
@@ -546,7 +556,7 @@ hr {
     justify-content: center;
   }
 
-  .sub{
+  .sub {
     display: flex;
     flex-direction: row;
     max-width: 80%;
@@ -565,15 +575,17 @@ hr {
     justify-content: space-between;
     width: 90%;
   }
+
   .bars1 {
     margin: 10px 0;
   }
+
   .part-2 {
     height: 400px;
   }
 
   .part31 {
     width: 50%;
-    margin: auto auto auto 0 ;
+    margin: auto auto auto 0;
   }
 }
