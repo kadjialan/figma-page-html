@@ -274,10 +274,16 @@ figcaption {
   gap: 40px;
   width: 80%;
   margin: auto;
-  height: 600px;
+  height: 600px; 
   border-radius: 10px;
 }
 
+.input1,
+.input2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
 
 #format {
   background-image: linear-gradient(#00000080, #00000080), url("../styles/images/large.png");
@@ -306,7 +312,6 @@ h3 {
 .us {
   display: flex;
   flex-direction: column;
-  width: 70%;
   margin: 0 auto;
   padding: 15px 40px;
   width: 263px;
@@ -324,13 +329,22 @@ h3 {
   width: 239px;
 }
 
-.bars,
+.bars {
+  height: 30px;
+  background-color: #F9F9F9;
+  border: 1px solid #BDBDBD;
+  color: #BDBDBD;
+  padding: 10px;
+  border-radius: 6px;
+}
+
 #bars {
   height: 50px;
   background-color: #F9F9F9;
   border: 1px solid #BDBDBD;
   color: #BDBDBD;
   padding: 10px;
+  border-radius: 6px;
 }
 
 #bars2 {
@@ -339,6 +353,7 @@ h3 {
   border: 1px solid #BDBDBD;
   color: #BDBDBD;
   padding: 10px;
+  border-radius: 6px;
 }
 
 footer {
@@ -455,9 +470,9 @@ hr {
     min-height: 750px;
   }
 
-   .content {
+  .content {
     max-width: 470px;
-  } 
+  }
 
   .content-x {
     max-width: 470px;
@@ -472,18 +487,18 @@ hr {
   .boxe3 {
     width: 29vw;
   }
-  
+
   .box {
     width: 19vw;
     height: 150px;
   }
 
-  .box p{
+  .box p {
     max-width: 245px;
   }
 
   .main-2 {
-    margin: 0px auto ;
+    margin: 0px auto;
   }
 
   #testimonials {
@@ -491,7 +506,49 @@ hr {
   }
 
   #team {
-   min-height: 73vh;
+    min-height: 73vh;
   }
 
+  .input {
+    display: flex;
+    gap: 20px;
+  }
+
+  .bars,
+  #bars {
+    width: 258px;
+  }
+
+  #bars2 {
+    width: 555px;
+  }
+
+  .bizarre {
+    gap: 20px;
+    height: 400px;
+    margin: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: fit-content;
+    margin: 0 0 0 10vw;
+  }
+
+  form .us {
+    margin: 0;
+  }
+
+  #format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sub{
+    display: flex;
+    flex-direction: row;
+  }
 }
