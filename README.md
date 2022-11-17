@@ -21,12 +21,12 @@ This page is a representation of a figma project
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
-`https://github.com/kadjialan/cvtemplate-page-html` using your terminal.
+`https://github.com/kadjialan/figma-page-html/pull/1` using your terminal.
 - Change to the project directory by entering: cd wedding in the terminal.
 
 ## Command-line steps
 
-- $ git clone `$ https://github.com/kadjialan/cvtemplate-page-html`
+- $ git clone `$ https://github.com/kadjialan/figma-page-html/pull/1`
 - $ `cd figma6`
 - $ `git checkout feature/readme`
 
@@ -44,7 +44,7 @@ Knowledge about:
 
 ## Live Site
 
-[Link]( https://kadjialan.github.io/cvtemplate-page-html/)
+[Link]( https://kadjialan.github.io/figma-page-html/)
 
 ## Author
 
@@ -56,7 +56,7 @@ Knowledge about:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kadjialan/cvtemplate-page-html/issues).
+Feel free to check the [issues page](https://github.com/kadjialan/figma-page-html/issues).
 
 ## Show your support
 
