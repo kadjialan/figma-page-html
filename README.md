@@ -21,12 +21,12 @@ This page is a representation of a figma project
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
-`https://github.com/kadjialan/figma-page-html/pull/1` using your terminal.
+`https://github.com/kadjialan/figma-page-html` using your terminal.
 - Change to the project directory by entering: cd wedding in the terminal.
 
 ## Command-line steps
 
-- $ git clone `$ https://github.com/kadjialan/figma-page-html/pull/1`
+- $ git clone `$ https://github.com/kadjialan/figma-page-html`
 - $ `cd figma6`
 - $ `git checkout feature/readme`
 
