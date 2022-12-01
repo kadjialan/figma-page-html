@@ -7,7 +7,7 @@
 #header {
   background-image: linear-gradient(#00000080, #00000080), url("../styles/images/coverD.png");
   color: white;
-  height: 900px;
+  height: 800px;
   width: 100%;
   display: flex;
   background-position: center;
@@ -38,6 +38,10 @@ nav {
   display: flex;
 }
 
+.navtext {
+  display: none;
+}
+
 .begin {
   display: flex;
   flex-direction: column;
@@ -48,6 +52,16 @@ nav {
   width: 85%;
   margin: auto;
   margin-top: 300px;
+}
+
+.begin1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin-top: 20px;
 }
 
 .xxx {
@@ -64,6 +78,7 @@ nav {
   width: 185px;
   height: 48px;
   background: #ffa62b;
+  border: 1px solid #ffa62b;
 }
 
 h2 {
@@ -447,8 +462,18 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+  #header {
+    height: 780px;
+  }
+
   .begin {
     max-width: 539px;
+  }
+
+  .begin1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -35px;
   }
 
   .begin h2 {
@@ -458,12 +483,42 @@ hr {
   }
 
   nav {
-    justify-content: space-around;
     padding-top: 20px;
+    gap: 7vw;
   }
 
   .nav2 {
-    gap: 8vw;
+    gap: 10vw;
+  }
+
+  .nav2 p {
+    display: contents;
+  }
+
+  .subnav {
+    gap: 4vw;
+    display: flex;
+  }
+
+  .navtext {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 5vw;
+    padding-top: 10px;
+  }
+
+  .navtext p {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .apart {
+    margin-right: 10px;
+  }
+
+  .fa-bars {
+    margin: 0;
   }
 
   #task {
